@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5217B801E4C3072002FFBB2 /* TestAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = F5217B7F1E4C3072002FFBB2 /* TestAssist.m */; };
 		F5CCD6501E236EFE00776318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCD64F1E236EFE00776318 /* main.m */; };
 		F5CCD6531E236EFE00776318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCD6521E236EFE00776318 /* AppDelegate.m */; };
 		F5CCD6561E236EFE00776318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCD6551E236EFE00776318 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5217B7E1E4C3072002FFBB2 /* TestAssist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAssist.h; sourceTree = "<group>"; };
+		F5217B7F1E4C3072002FFBB2 /* TestAssist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAssist.m; sourceTree = "<group>"; };
 		F5CCD64B1E236EFE00776318 /* FRFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CCD64F1E236EFE00776318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5CCD6511E236EFE00776318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5217B7D1E4C3036002FFBB2 /* FRTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5217B7E1E4C3072002FFBB2 /* TestAssist.h */,
+				F5217B7F1E4C3072002FFBB2 /* TestAssist.m */,
+			);
+			path = FRTest;
+			sourceTree = "<group>";
+		};
 		F5CCD6421E236EFE00776318 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 				F5CCD6831E236F3900776318 /* FRCategory */,
 				F5CCD6821E236F2A00776318 /* FRUtils */,
 				F5CCD6811E236F1900776318 /* FRRuntime */,
+				F5217B7D1E4C3036002FFBB2 /* FRTest */,
 				F5CCD6571E236EFE00776318 /* Main.storyboard */,
 				F5CCD65A1E236EFE00776318 /* Assets.xcassets */,
 				F5CCD65C1E236EFE00776318 /* LaunchScreen.storyboard */,
@@ -312,6 +325,7 @@
 			files = (
 				F5CCD68C1E236FC300776318 /* RuntimeAssist.m in Sources */,
 				F5CCD6891E236F9700776318 /* NSString+Cat.m in Sources */,
+				F5217B801E4C3072002FFBB2 /* TestAssist.m in Sources */,
 				F5CCD6561E236EFE00776318 /* ViewController.m in Sources */,
 				F5CCD6531E236EFE00776318 /* AppDelegate.m in Sources */,
 				F5CCD6501E236EFE00776318 /* main.m in Sources */,
